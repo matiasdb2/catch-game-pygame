@@ -14,6 +14,6 @@
 <p><b>Built-in Music Player:</b> An 8-bit version of the popular song 'Dura' by Daddy Yankee plays continuously in the background, adding to the immersive epic gaming experience.</p>
 
 <h3>Changelog</h3>
-<p>Added a pip install upgrade pygame command at the beginning of the code to ensure compatibility for users who do not have the Pygame library installed.</p>
-<p>Updated the music playback functionality. The pygame.mixer.music.play command now has the loop parameter set to -1, enabling the music to loop continuously throughout the game.</p>
-<p>Enhanced the player movement for a more enjoyable gaming experience. The player_acc value has been adjusted to 0.5, providing smoother acceleration for the player-controlled bar. The player_max_vel value has been increased to 10, allowing for faster movement and greater responsiveness. These modifications contribute to improved gameplay dynamics and overall user satisfaction.</p>
+<p>Added a `pip install --upgrade pygame` command at the beginning of the code to ensure compatibility for users who do not have the Pygame library installed.</p>
+<p>Updated the music playback functionality. The `pygame.mixer.music.play()` command now has the loop parameter set to `(-1)`, enabling the music to loop continuously throughout the game.</p>
+<p>Enhanced the player movement for a more enjoyable gaming experience. The `player_acc` value has been adjusted to `0.5`, providing smoother acceleration for the player-controlled bar. The `player_max_vel` value has been increased to `10`, allowing for faster movement and greater responsiveness. These modifications contribute to improved gameplay dynamics and overall user satisfaction.</p>
